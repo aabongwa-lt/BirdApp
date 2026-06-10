@@ -1,0 +1,43 @@
+# Build results
+bin/
+obj/
+Debug/
+Release/
+*.dll
+*.exe
+*.pdb
+
+# IDE specific files
+.vs/
+.vscode/
+.idea/
+*.sln.iml
+*.user
+*.userprefs
+*.suo
+
+# ReSharper / JetBrains Rider
+.idea/
+*.sln.iml
+riderModule.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Local environment
+.env
+appsettings.local.json
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Test Results
+TestResults/
+*.trx
+
+# Coverage
+coverage/
+*.coverage

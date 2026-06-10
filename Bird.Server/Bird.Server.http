@@ -1,0 +1,6 @@
+@Bird.Server_HostAddress = http://localhost:5177
+
+GET {{Bird.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
